@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    font-size: 16px;
+    --color: #2c55c6;
+}
+
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(31, 31, 31);
+}
+
+
+/* FIGURAS DE FONDO */
+.wave-right-top {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    filter: brightness(130%); /*Filtro para aclarar un poco*/
+    z-index: -1;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(90%); /*Filtro para oscurecer un poco*/
+}
+
+footer img {
+    position: absolute;
+    bottom: 0;
+}
+
+.logo-asla {
+    margin: .5rem 3rem;
+    font-size: 1.4rem;
+    color: #707070;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.logo-asla img{
+    position: relative;
+    height: 4.5rem;
+}
+
+/* FORMULARIO E IMAGEN PRINCIPAL */
+
+.formulario {
+    width: 50%;
+    height: 100%;
+    padding: 4rem;
+}
+
+.formulario img {  /* Logo defensoría */
+    width: 90%;
+}
+
+
+.imagen-principal {
+    width: 50%;
+    height: 100%;
+}
+
+.imagen-principal img {
+    height: calc(100vh - 1rem);
+}
+
+/* Lado formulario */
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 2rem 0;
+    color: rgb(31, 31, 31);
+}
+
+h2 span {
+    font-weight: 700;
+    display: block;
+}
+
+h3 {         /* INICIAR SESION */
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--color);
+    margin: 1rem 0;
+}
+
+
+/* Inputs */
+.grupo {
+    margin: 1.5rem 0;
+}
+
+.grupo label {
+    display: block;
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: var(--color);
+    font-weight: 600;
+}
+
+.grupo input {
+    width: 100%;
+    max-width: 500px;
+    height: 2.5em;
+    padding: 1rem;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.grupo::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 4px;
+    height: 2.6em;    
+    background-color: var(--color);
+}
+
+/* Boton Ingresar */
+.boton-ingresar {
+    margin: 0;
+    width: 35%;
+    border-radius: 50px;
+    height: 3rem;
+    border: none;
+    background-color: var(--color);
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.boton-ingresar:hover {
+    cursor: pointer;
+    background-color: rgb(0, 42, 156);
+}

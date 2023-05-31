@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 274" width="1440" height="274">
+	<title>wave-footer-svg</title>
+	<style>
+		.s0 { fill: #f0f0f0 } 
+	</style>
+	<path id="Layer" class="s0" d="m0 160h48c48 0 144 0 240 16 96 16 192 48 288 64 96 16 192 16 288 5.3 96-10.3 192-32.3 288-37.3 96-5 192 5 240 10.7l48 5.3v96h-48c-48 0-144 0-240 0q-144 0-288 0-144 0-288 0-144 0-288 0c-96 0-192 0-240 0h-48z"/>
+</svg>
